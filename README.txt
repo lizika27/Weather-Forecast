@@ -4,6 +4,9 @@ The Weather Forecast Application is a Python-based tool that provides users with
 
 Instruction:
 
+Run "cmd" support python environment variables or other python shell -> type: python main.py
+
+Interaction:
 At First, the user will supply the name of the default city to be presented, which will be saved in a JSON file named "defaultCity.json".
 Second, the user will be asked to insert the name of the city he wishes to display the weather of.
 Finally, each time the program executes, a city name will be asked to be provided, when no city is provided the weather data of the default city will be presented in the console.
