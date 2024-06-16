@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "biu ds17 - python project 1 - weather forecast-"
+version = "1.0"
+description = "The Weather Forecast Application is a Python-based tool that provides users with real-time weather forecasts for any city they specify. The application leverages the OpenWeatherMap API to retrieve accurate and up-to-date weather information. Users can easily enter the name of a city, and the application will display the current weather conditions along with a forecast for the current moment."
+authors = ["lizika27 <117172753+lizika27@users.noreply.github.com>"]
+license = "Liz Kaplan"
+readme = "README.md"
+packages = [{include = "biu ds17 _ python project 1 _ weather forecast"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+DateTime = "5.5"
+requests = "2.32.3"
+pytz = "2024.1"
+pycountry = "24.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
